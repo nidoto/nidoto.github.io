@@ -1,0 +1,112 @@
+# Site settings
+title: AnyWhere
+SEOTitle: AnyWhere | nidoto
+header-img: img/bg-default.jpg
+email: nidoto@qq.com
+description: "Just A Blog"
+keyword: ""
+url: ""              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     2006429337
+zhihu_username:     pan-guo-9
+github_username:    nidoto
+twitter_username:   false
+facebook_username:  false
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# plugins
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+plugins:
+  - jemoji
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: false
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+
+
+
+#gitalk
+gitalk:
+    enable: true
+    owner: nidoto
+    repo: nidoto.github.io
+    clientID: a67d69349677024865be
+    clientSecret: dd14f2d7a2c440e4af766aaba4f66317dfadd1e0
+    admin: nidoto
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: false
+# Google Analytics
+ga_track_id: false            # Format: UA-xxxxxx-xx
+ga_domain: false
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description:  "做一个只对自己<br>说谎的<br>哑巴"
+sidebar-avatar: /img/meta/avatar.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                    # whether or not using Feature-Tags
+featured-condition-size: 1             # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Nas",
+        href: "http://nas.nidoto.cn:5000"
+    },{
+        title: "Jellyfin",
+        href: "http://nas.nidoto.cn:8096"
+    },{
+        title: "metoo",
+        href: "https://metoo0713.github.io/"
+#    },{
+#        title: "Example Friends",
+#        href: "#"
+#    },{
+#        title: "It helps SEO",
+#        href: "#"
+    }
+]
