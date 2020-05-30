@@ -80,7 +80,7 @@ ga_domain: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description:  "做一个只对自己<br>说谎的<br>哑巴"
+sidebar-about-description:  "宿命像潮水般"
 sidebar-avatar: /img/meta/avatar.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -110,3 +110,5 @@ friends: [
 #        href: "#"
     }
 ]
+
+
