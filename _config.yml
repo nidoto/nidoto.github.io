@@ -2,7 +2,7 @@
 title: '尼多托'
 description: '学习，分享。'
 keyword: '尼多托, 尼多托的独立博客，'
-url: 'nidoto.github.io' # your host
+url: '' # your host
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
 # 在服务器上建站时，如果你不需要子域名，请将这一格留空
